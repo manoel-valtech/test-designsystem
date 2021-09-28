@@ -1,7 +1,7 @@
 {
   "name": "test-designsystem",
   "version": "0.1.0",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "private": false,
   "files": [
     "dist",
