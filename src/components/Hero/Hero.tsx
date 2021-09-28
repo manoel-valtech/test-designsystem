@@ -1,4 +1,4 @@
-export default function Hero () {
+export function Hero () {
     return (
         <div>
             <h1>Hellow World!</h1>
