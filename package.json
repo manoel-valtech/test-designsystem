@@ -1,7 +1,7 @@
 {
   "name": "test-designsystem",
   "version": "0.1.0",
-  "main": "dist/index.js",
+  "main": "dist/index.ts",
   "private": false,
   "files": [ "dist", "README.md" ],
   "dependencies": {
