@@ -3,6 +3,7 @@ module.exports = function (api) {
     
     const presets = [ 
         "@babel/preset-env",
+        "@babel/preset-flow",
         "@babel/preset-react",
         [
             "@babel/preset-typescript",

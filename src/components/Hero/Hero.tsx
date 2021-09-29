@@ -1,4 +1,6 @@
-export function Hero () {
+import React from "react";
+
+function Hero () {
     return (
         <div>
             <h1>Hellow World!</h1>
@@ -6,3 +8,5 @@ export function Hero () {
         </div>
     )
 }
+
+export default Hero;
