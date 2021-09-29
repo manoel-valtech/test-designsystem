@@ -31,8 +31,7 @@
     "build-storybook": "build-storybook -s public",
     "clean": "rimraf dist",
     "typescript": "npm run clean && tsc src/index.ts --declaration --allowJs --jsx react-jsx --outDir dist",
-    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --extensions .ts,.tsx",
-    "export": "npm run compile && npm run types"
+    "export": "npm run typescript"
   },
   "eslintConfig": {
     "extends": [
@@ -63,18 +62,12 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-flow": "^7.14.5",
-    "@babel/preset-react": "^7.14.5",
-    "@babel/preset-typescript": "^7.15.0",
     "@storybook/addon-actions": "^6.3.8",
     "@storybook/addon-essentials": "^6.3.8",
     "@storybook/addon-links": "^6.3.8",
     "@storybook/node-logger": "^6.3.8",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.8",
-    "cross-env": "^7.0.3",
     "typescript": "^4.4.3"
   }
 }

@@ -1,10 +1,13 @@
-function Hero () {
-    return (
-        <div>
-            <h1>Hellow World!</h1>
-            <p>This is my test </p>
-        </div>
-    )
+type HeroProps = {
+    title: string,
+    body: string
 }
 
-export default Hero;
+export default function Hero ({ title, body }: HeroProps) {
+    return (
+        <section>
+            <h1>{title}</h1>
+            { body }
+        </section>
+    )
+}

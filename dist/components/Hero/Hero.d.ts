@@ -1,3 +1,7 @@
 /// <reference types="react" />
-declare function Hero(): JSX.Element;
-export default Hero;
+declare type HeroProps = {
+    title: string;
+    body: string;
+};
+export default function Hero({ title, body }: HeroProps): JSX.Element;
+export {};
