@@ -6,8 +6,7 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __exportStar = (this && this.__exportStar) || function(m, exports) {
-    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
-};
 exports.__esModule = true;
-__exportStar(require("./components/Hero"), exports);
+exports.Hero = void 0;
+var Hero_1 = require("./Hero");
+__createBinding(exports, Hero_1, "default", "Hero");
