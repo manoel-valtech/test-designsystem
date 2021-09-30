@@ -1,13 +1,11 @@
 type HeroProps = {
-    title?: string,
-    body?: string
+    children: any
 }
 
-export default function Hero ({ title, body }: HeroProps) {
+export default function Hero ({children} : HeroProps) {
     return (
-        <section>
-            <h1>{title}</h1>
-            { body }
+        <section className="hero">
+            {children}
         </section>
     )
 }
